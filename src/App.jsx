@@ -19,7 +19,7 @@ export default function App() {
   
 
   return (
-    <div className="bg-darkBlue min-h-screen font-manrope text-white flex items-center justify-center p-4">
+    <div className="bg-darkBlue min-h-screen font-manrope overflow-hidden text-white flex items-center justify-center p-4">
       <div className="relative w-full max-w-[340px] sm:max-w-[540px] bg-darkGrayishBlue px-6 sm:px-10 pt-10 pb-16 space-y-6 text-center rounded-2xl shadow-lg">
         <h1 className="text-xs sm:text-sm tracking-[0.3em] text-neonGreen font-bold">ADVICE #{advices.id}</h1>
         <p className="font-extrabold text-lightCyan text-[20px] sm:text-[28px] leading-tight">{advices.advice}</p>
